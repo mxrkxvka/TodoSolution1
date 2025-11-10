@@ -11,4 +11,8 @@
 		<Description>Simple Todo core library (for practice)</Description>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 	</PropertyGroup>
+	<ItemGroup>
+	  <None Include=".github\workflows\ci.yml" />
+	  <None Include=".github\workflows\publish-package.yml" />
+	</ItemGroup>
 </Project>
